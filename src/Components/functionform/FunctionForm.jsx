@@ -38,7 +38,7 @@ const FunctionForm = () => {
 
     return (
         <form className="functional_section" onSubmit = {handleSubmit}>
-            <h1>FUNCTIONAL FORM EXAMPLE</h1>
+            <h1>FUNCTIONAL COMPONENT FORM EXAMPLE</h1>
 
             <label htmlFor="age">Enter Your Age:</label>
             <input type="number" 

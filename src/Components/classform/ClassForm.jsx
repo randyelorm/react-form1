@@ -44,7 +44,7 @@ class ClassForm extends Component {
     render() {
         return (
             <form className ="classForm-section" onSubmit = {this.handleSubmit}>
-                <h1>CLASS FORM EXAMPLE</h1>
+                <h1>CLASS COMPONENT FORM EXAMPLE</h1>
                <label htmlFor="name" className="heading">Enter Your Name:</label>
                <    input type="text" 
                     value={this.state.textvalue} 
